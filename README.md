@@ -33,7 +33,6 @@ In this project, we use cosine similarity to measure the similarity between movi
 1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/movie-recommendation-system.git
-    cd movie-recommendation-system
     ```
 
 2. Install the required packages:
@@ -63,10 +62,6 @@ The model for recommending movies is based on cosine similarity. Cosine similari
 ## Results
 
 The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
-
-![Screenshot 2024-07-12 103743](https://github.com/user-attachments/assets/fbc357a1-a6e6-472a-892b-95fe96767743)
-
-## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
