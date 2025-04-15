@@ -36,8 +36,8 @@ if st.button('Recommend'):
     st.write("Top 10 recommended movies:")
 
     # Create a 2x5 grid layout
-    for i in range(0, 10, 5):  # Loop over rows (2 rows, 5 movies each)
-        cols = st.columns(5)  # Create 5 columns for each row
+    for i in range(0, 10, 5):  
+        cols = st.columns(5)  
         for col, j in zip(cols, range(i, i+5)):
             if j < len(recommendations):
                 movie_title = recommendations.iloc[j]['title']
