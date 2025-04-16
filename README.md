@@ -32,7 +32,7 @@ In this project, we use cosine similarity to measure the similarity between movi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/movie-recommendation-system.git
+    git clone https://github.com/Sharanxo/Movie-Recommendation-System.git
     ```
 
 2. Install the required packages:
